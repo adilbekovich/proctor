@@ -4,6 +4,11 @@
   var LoginCtrl = function($scope) {
 
     console.log("Hello LoginCtrl", $scope);
+    $scope.validateEmail = function($event) {
+
+
+
+    };
 
   };
 

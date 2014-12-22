@@ -1,5 +1,13 @@
 <ion-view title="Login">
   <ion-content class="has-header padding">
     <h1>Login</h1>
+    <label class="item item-input">
+      <i class="icon ion-email placeholder-icon"></i>
+      <input type="text" placeholder="e-mail">
+    </label>
+    <br>
+    <button class="button button-stable" ng-click="validateEmail($event)">
+     Login
+    </button>
   </ion-content>
 </ion-view>
