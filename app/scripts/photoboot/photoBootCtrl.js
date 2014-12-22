@@ -7,7 +7,6 @@
 
   };
 
-  console.log('added');
   angular.module('WebrtcCallDemo.controllers').controller('PhotoBootCtrl', PhotoBootCtrl);
 
 })();

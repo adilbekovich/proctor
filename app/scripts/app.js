@@ -42,38 +42,39 @@ angular.module('WebrtcCallDemo', ['ionic', 'config', 'WebrtcCallDemo.controllers
     .state('tab.dash', {
       url: '/dash',
       views: {
-        'tab-dash': {
+        'tab-friends': {
           templateUrl: 'templates/tab-dash.html',
           controller: 'DashCtrl'
         }
       }
     })
 
-    .state('tab.friends', {
-      url: '/friends',
+    .state('tab.login', {
+      url: '/login',
       views: {
-        'tab-friends': {
-          templateUrl: 'templates/tab-friends.html',
-          controller: 'FriendsCtrl'
-        }
-      }
-    })
-    .state('tab.friend-detail', {
-      url: '/friend/:friendId',
-      views: {
-        'tab-friends': {
-          templateUrl: 'templates/friend-detail.html',
-          controller: 'FriendDetailCtrl'
+        'tab-dash': {
+          templateUrl: 'templates/tab-login.html',
+          controller: 'LoginCtrl'
         }
       }
     })
 
-    .state('tab.account', {
-      url: '/account',
+    .state('tab.photoboot', {
+      url: '/photoboot',
+      views: {
+        'tab-friends': {
+          templateUrl: 'templates/tab-photoboot.html',
+          controller: 'PhotoBootCtrl'
+        }
+      }
+    })
+
+    .state('tab.acquiring', {
+      url: '/acquiring',
       views: {
         'tab-account': {
-          templateUrl: 'templates/tab-account.html',
-          controller: 'AccountCtrl'
+          templateUrl: 'templates/tab-acquiring.html',
+          controller: 'AcquireCtrl'
         }
       }
     });
