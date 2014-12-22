@@ -38,11 +38,10 @@ angular.module('WebrtcCallDemo', ['ionic', 'config', 'WebrtcCallDemo.controllers
     })
 
     // Each tab has its own nav history stack:
-
     .state('tab.dash', {
-      url: '/dash',
+      url: 'tab/dash',
       views: {
-        'tab-friends': {
+        'tab-dash': {
           templateUrl: 'templates/tab-dash.html',
           controller: 'DashCtrl'
         }
@@ -52,7 +51,7 @@ angular.module('WebrtcCallDemo', ['ionic', 'config', 'WebrtcCallDemo.controllers
     .state('tab.login', {
       url: '/login',
       views: {
-        'tab-dash': {
+        'tab-login': {
           templateUrl: 'templates/tab-login.html',
           controller: 'LoginCtrl'
         }
@@ -62,7 +61,7 @@ angular.module('WebrtcCallDemo', ['ionic', 'config', 'WebrtcCallDemo.controllers
     .state('tab.photoboot', {
       url: '/photoboot',
       views: {
-        'tab-friends': {
+        'tab-photoboot': {
           templateUrl: 'templates/tab-photoboot.html',
           controller: 'PhotoBootCtrl'
         }
@@ -72,7 +71,7 @@ angular.module('WebrtcCallDemo', ['ionic', 'config', 'WebrtcCallDemo.controllers
     .state('tab.acquiring', {
       url: '/acquiring',
       views: {
-        'tab-account': {
+        'tab-acquiring': {
           templateUrl: 'templates/tab-acquiring.html',
           controller: 'AcquireCtrl'
         }

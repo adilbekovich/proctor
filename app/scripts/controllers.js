@@ -5,4 +5,4 @@ angular.module('WebrtcCallDemo.controllers', [])
 
     console.log('enjoy', $scope);
 
-  })
+  });
