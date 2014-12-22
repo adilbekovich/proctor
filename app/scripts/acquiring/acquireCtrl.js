@@ -8,5 +8,6 @@
   };
 
   angular.module('WebrtcCallDemo.controllers').controller('AcquireCtrl', AcquireCtrl);
+  console.log('executed');
 
 })();
