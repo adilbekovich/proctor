@@ -8,12 +8,12 @@ platforms/
 plugins/
 *.swp
 *.swo
-*.log
 *.DS_Store
 app/scripts/config.js
 node_modules/
 bower_components/
-*.log
 build/
 dist/
-
+*.log
+*.iml
+.idea
