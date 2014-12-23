@@ -7,7 +7,6 @@
 
   };
 
-  angular.module('WebrtcCallDemo.controllers').controller('AcquireCtrl', AcquireCtrl);
-  console.log('executed');
+  angular.module('WebrtcCallDemo').controller('AcquireCtrl', AcquireCtrl);
 
 })();

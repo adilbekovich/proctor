@@ -39,7 +39,7 @@ angular.module('WebrtcCallDemo', ['ionic', 'config', 'WebrtcCallDemo.controllers
 
     // Each tab has its own nav history stack:
     .state('tab.dash', {
-      url: 'tab/dash',
+      url: '/dash',
       views: {
         'tab-dash': {
           templateUrl: 'templates/tab-dash.html',

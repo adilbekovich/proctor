@@ -1,18 +1,17 @@
 <ion-view title="Login">
   <ion-content class="has-header padding">
-    <h1>Login</h1>
-
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet ex et nibh vestibulum faucibus. Suspendisse sollicitudin velit ut odio feugiat convallis.</p>
     <label class="item item-input">
       <i class="icon ion-email placeholder-icon"></i>
-      <input type="text" placeholder="e-mail">
+      <input type="email" placeholder="e-mail" ng-change="validateEmail()" ng-model="login.username" required >
     </label>
 
     <label class="item item-input">
       <i class="icon ion-locked placeholder-icon"></i>
-      <input type="password" placeholder="password">
+      <input type="password" placeholder="password" ng-change="validatePassword()" ng-model="login.password" required>
     </label>
     <br>
-    <button class="button button-stable" ng-click="validateEmail($event)">
+    <button class="button button-stable" ng-click="authenticate()" ng-disabled="loginInvalid">
       Login
     </button>
   </ion-content>

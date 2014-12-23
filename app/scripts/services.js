@@ -24,4 +24,5 @@ angular.module('WebrtcCallDemo.services', [])
       return friends[friendId];
     }
   };
-});
+})
+

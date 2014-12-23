@@ -1,8 +1,7 @@
 'use strict';
 angular.module('WebrtcCallDemo.controllers', [])
+.controller('DashCtrl', ['$scope', function(s) {
 
-.controller('DashCtrl', function($scope) {
+    console.log('enjoy', s);
 
-    console.log('enjoy', $scope);
-
-  });
+  }])
