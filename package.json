@@ -55,6 +55,7 @@
     "org.apache.cordova.network-information",
     "org.apache.cordova.camera",
     "org.apache.cordova.media-capture",
-    "org.apache.cordova.dialogs"
+    "org.apache.cordova.dialogs",
+    "https://github.com/onsip/onsip-cordova.git"
   ]
 }
